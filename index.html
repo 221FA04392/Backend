@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion24</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="#">Beauty24</a></div>
+        <nav class="navigation">
+            <ul>
+                <li><a id="home-link" href="#">Home</a></li>
+                <li><a id="body-lotion-link" href="#">Clothing Store</a></li>
+                <li><a id="face-wash-link" href="#">Beauty products</a></li>
+                <li><a id="skin-care-link" href="#">Footwear products</a></li>
+                <li><a id="lip-care-link" href="#">Accessories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        
+        <section class="hero" id="home-section">
+            <h1>Confidence breeds <span>beauty</span></h1>
+            <p>Explore expert insights and reviews on the latest in cosmetics, from innovative products to timeless essentials. Our blog offers trusted advice for enhancing your beauty routine.</p>
+            <a href="#" class="shop-button">SHOP NOW</a>
+        </section>
+
+        
+        <section class="product-list" id="body-lotion-section" style="display: none;">
+            <h2>Body Lotions</h2>
+            <div class="product-item">
+                <h3>Nivea Soft Light Moisturizer</h3>
+                <p>Uses: Provides intense hydration and rejuvenates skin.</p>
+                <p>Price: ₹250 for 200ml</p>
+            </div>
+            <div class="product-item">
+                <h3>Soothing Aloe Vera Lotion</h3>
+                <p>Uses: Soothes and cools irritated skin, perfect for sunburns.</p>
+                <p>Price:₹550 for 100ml</p>
+            </div>
+            <div class="product-item">
+                <h3>Firming Cocoa Butter Lotion</h3>
+                <p>Uses: Helps to firm and tone the skin, reducing the appearance of stretch marks.</p>
+                <p>Price: ₹750 for 500ml</p>
+            </div>
+            <div class="product-item">
+                <h3>Pond's Moisturizing Body Lotion</h3>
+                <p>Uses: Nourishes and hydrates dry skin for 24 hours.</p>
+                <p>Price: ₹220 for 200ml</p>
+            </div>
+            <div class="product-item">
+                <h3>Himalaya Nourishing Skin Cream</h3>
+                <p>Uses: Enriched with natural ingredients to keep skin soft and supple.</p>
+                <p>Price: ₹150 for 100ml</p>
+            </div>
+            <div class="product-item">
+                <h3>Biotique Bio Morning Nectar Flawless Skin Lotion</h3>
+                <p>Uses:Hydrates and revitalizes skin with natural ingredients.</p>
+                <p>Price: ₹199 for 190ml</p>
+            </div>
+             <div class="product-item">
+                <h3>Vaseline Intensive Care Deep Restore Body Lotion</h3>
+                <p>Uses: Deeply moisturizes and restores dry skin, with a non-greasy formula.</p>
+                <p>Price: ₹300 for 400ml</p>
+            </div>
+            <div class="product-item">
+                <h3>The Body Shop Body Butter (Variety of Scents)</h3>
+                <p>Uses: Rich and creamy formula to deeply nourish and soften skin.</p>
+                <p>Price: ₹1095 for 200ml</p>
+            </div>
+
+
+            <!-- Add body lotion products here -->
+        </section>
+
+        
+        <section class="product-list" id="face-wash-section" style="display: none;">
+            <h2>Face Washes</h2>
+            <div class="company-list">
+                <ul>
+                    <li><a href="#" class="company-link" data-company="company1">Rice Water</a></li>
+                    <li><a href="#" class="company-link" data-company="company2">Himalaya</a></li>
+                    <li><a href="#" class="company-link" data-company="company3">Everyuth</a></li>
+                    <li><a href="#" class="company-link" data-company="company4">Clean & Clear</a></li>
+                    <li><a href="#" class="company-link" data-company="company5">Cetaphil</a></li>
+                </ul>
+            </div>
+            <div id="face-wash-content">
+                <!-- Face wash details will be dynamically added here -->
+            </div>
+        </section>
+
+        
+        <section class="product-list" id="skin-care-section" style="display: none;">
+            <h2>Skin Care</h2>
+            <div class="company-list">
+                <ul>
+                    <li><a href="#" class="skin-care-link" data-category="cleanser">Cleanser</a></li>
+                    <li><a href="#" class="skin-care-link" data-category="toner">Toner</a></li>
+                    <li><a href="#" class="skin-care-link" data-category="moisturizer">Moisturizer</a></li>
+                    <li><a href="#" class="skin-care-link" data-category="sunscreen">Sunscreen</a></li>
+                    <li><a href="#" class="skin-care-link" data-category="primer">Primer</a></li>
+                </ul>
+            </div>
+            <div id="skin-care-content">
+                <!-- Skin care details will be dynamically added here -->
+            </div>
+        </section>
+
+        
+        <section class="product-list" id="lip-care-section" style="display: none;">
+            <h2>Lip Care</h2>
+            <div class="company-list">
+                <ul>
+                    <li><a href="#" class="lip-care-link" data-category="lip-balm">Lip Balm</a></li>
+                    <li><a href="#" class="lip-care-link" data-category="lip-matte">Lip Matte</a></li>
+                    <li><a href="#" class="lip-care-link" data-category="lip-stick">Lip Stick</a></li>
+                    <li><a href="#" class="lip-care-link" data-category="lip-gloss">Lip Gloss</a></li>
+                </ul>
+            </div>
+            <div id="lip-care-content">
+                <!-- Lip care details will be dynamically added here -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Facebook | Instagram</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
